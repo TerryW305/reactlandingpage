@@ -7,11 +7,11 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 export const Jombotron = () => {
 	return (
-		<div class="card w-75 mx-auto">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Button</a>
+		<div className="container rounded bg-light my-4 p-4 text-start">
+  <div className="card-body">
+  <h1 class="display-4">A Warm Welcome!</h1>
+    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" className="btn btn-primary">Call To Action</a>
   </div>
 </div>
 			
